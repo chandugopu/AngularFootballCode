@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 87.0.4280 (Mac OS X 11.0.0)" package="unit" timestamp="2020-12-10T00:26:36" id="0" hostname="chandus-MBP-2.fios-router.home" tests="4" errors="1" failures="4" time="15.192">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/87.0.4280.88 Safari/537.36"/>
+  </properties>
+  <testcase name="FootballMatchesComponent Should render the initial UI as expected" time="0.064" classname=".FootballMatchesComponent">
+    <failure type="">Error: Expected &lt;p _ngcontent-a-c11 data-test-id="no-result" class="slide-up-fade-in"&gt;...&lt;/p&gt; to be null. Tip: To check for deep equality, use .toEqual() instead of .toBe().
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/football-matches/football-matches.component.spec.ts:54:38
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+  </testcase>
+  <testcase name="FootballMatchesComponent Should render the matches list after data is fetched from API - 2" time="5.058" classname=".FootballMatchesComponent">
+    <failure type="">Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="FootballMatchesComponent Should show no results found if API returns no data" time="5.012" classname=".FootballMatchesComponent">
+    <failure type="">Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="FootballMatchesComponent Should render the matches list after data is fetched from API - 1" time="5.058" classname=".FootballMatchesComponent">
+    <failure type="">Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[HeadlessChrome 87.0.4280 (Mac OS X 11.0.0) ERROR: 'Unhandled Promise rejection:', 'Expected one matching request for criteria "Match URL: https://jsonmock.hackerrank.com/api/football_competitions?year=2013", found none.', '; Zone:', 'ProxyZone', '; Task:', 'Promise.then', '; Value:', Error: Expected one matching request for criteria "Match URL: https://jsonmock.hackerrank.com/api/football_competitions?year=2013", found none.
+Error: Expected one matching request for criteria "Match URL: https://jsonmock.hackerrank.com/api/football_competitions?year=2013", found none.
+    at HttpClientTestingBackend.expectOne (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/http/testing.js:297:1)
+    at http://localhost:9876/_karma_webpack_/src/app/football-matches/football-matches.component.spec.ts:134:24
+    at Generator.next (<anonymous>)
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1), 'Error: Expected one matching request for criteria "Match URL: https://jsonmock.hackerrank.com/api/football_competitions?year=2013", found none.
+    at HttpClientTestingBackend.expectOne (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/http/testing.js:297:1)
+    at http://localhost:9876/_karma_webpack_/src/app/football-matches/football-matches.component.spec.ts:134:24
+    at Generator.next (<anonymous>)
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)'
+,HeadlessChrome 87.0.4280 (Mac OS X 11.0.0) ERROR: 'Unhandled Promise rejection:', 'Expected one matching request for criteria "Match URL: https://jsonmock.hackerrank.com/api/football_competitions?year=2017", found none.', '; Zone:', 'ProxyZone', '; Task:', 'Promise.then', '; Value:', Error: Expected one matching request for criteria "Match URL: https://jsonmock.hackerrank.com/api/football_competitions?year=2017", found none.
+Error: Expected one matching request for criteria "Match URL: https://jsonmock.hackerrank.com/api/football_competitions?year=2017", found none.
+    at HttpClientTestingBackend.expectOne (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/http/testing.js:297:1)
+    at http://localhost:9876/_karma_webpack_/src/app/football-matches/football-matches.component.spec.ts:64:24
+    at Generator.next (<anonymous>)
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1), 'Error: Expected one matching request for criteria "Match URL: https://jsonmock.hackerrank.com/api/football_competitions?year=2017", found none.
+    at HttpClientTestingBackend.expectOne (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/http/testing.js:297:1)
+    at http://localhost:9876/_karma_webpack_/src/app/football-matches/football-matches.component.spec.ts:64:24
+    at Generator.next (<anonymous>)
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)'
+,HeadlessChrome 87.0.4280 (Mac OS X 11.0.0) ERROR: 'Unhandled Promise rejection:', 'Expected one matching request for criteria "Match URL: https://jsonmock.hackerrank.com/api/football_competitions?year=2011", found none.', '; Zone:', 'ProxyZone', '; Task:', 'Promise.then', '; Value:', Error: Expected one matching request for criteria "Match URL: https://jsonmock.hackerrank.com/api/football_competitions?year=2011", found none.
+Error: Expected one matching request for criteria "Match URL: https://jsonmock.hackerrank.com/api/football_competitions?year=2011", found none.
+    at HttpClientTestingBackend.expectOne (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/http/testing.js:297:1)
+    at http://localhost:9876/_karma_webpack_/src/app/football-matches/football-matches.component.spec.ts:86:24
+    at Generator.next (<anonymous>)
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1), 'Error: Expected one matching request for criteria "Match URL: https://jsonmock.hackerrank.com/api/football_competitions?year=2011", found none.
+    at HttpClientTestingBackend.expectOne (http://localhost:9876/_karma_webpack_/node_modules/@angular/common/__ivy_ngcc__/fesm2015/http/testing.js:297:1)
+    at http://localhost:9876/_karma_webpack_/src/app/football-matches/football-matches.component.spec.ts:86:24
+    at Generator.next (<anonymous>)
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
